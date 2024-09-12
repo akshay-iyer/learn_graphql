@@ -4,7 +4,23 @@ const UserList = [
         name: "Akshay",
         username: "random9",
         age: 31,
-        nationality: "India"
+        nationality: "India",
+        friends:[
+            {
+                id: 3,
+                name: "Amey",
+                username: "cooldude",
+                age: 29,
+                nationality: "India"
+            },
+            {
+                id: 4,
+                name: "Novak",
+                username: "nole",
+                age: 38,
+                nationality: "Serbia"
+            }
+        ]
     },
     {
         id: 2,
@@ -18,14 +34,32 @@ const UserList = [
         name: "Amey",
         username: "cooldude",
         age: 29,
-        nationality: "India"
+        nationality: "India",
+        friends:[
+            {
+                id: 1,
+                name: "Akshay",
+                username: "random9",
+                age: 31,
+                nationality: "India",
+            }
+        ]
     },
     {
         id: 4,
         name: "Novak",
         username: "nole",
         age: 38,
-        nationality: "Serbia"
+        nationality: "Serbia",
+        friends: [
+            {
+                id: 1,
+                name: "Akshay",
+                username: "random9",
+                age: 31,
+                nationality: "India",
+            }
+        ]
     }
 ];
 
