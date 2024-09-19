@@ -63,4 +63,37 @@ const UserList = [
     }
 ];
 
-module.exports = { UserList }
+const MovieList = [
+    {
+        id: 1,
+        name: 'Infinity War',
+        year: 2019,
+        isBlockbuster: true
+    },
+    {
+        id: 2,
+        name: 'Lootera',
+        year: 2015,
+        isBlockbuster: false
+    },
+    {
+        id: 3,
+        name: 'Interstellar',
+        year: 2009,
+        isBlockbuster: true
+    },
+    {
+        id: 4,
+        name: 'Om Shanti Om',
+        year: 2008,
+        isBlockbuster: true
+    },
+    {
+        id: 5,
+        name: 'Speed',
+        year: 2003,
+        isBlockbuster: false
+    }
+];
+
+module.exports = { UserList, MovieList };
